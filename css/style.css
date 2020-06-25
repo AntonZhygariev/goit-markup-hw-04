@@ -99,7 +99,6 @@ img {
 }
 
 .container {
-  /* display: flex; */
   margin-left: auto;
   margin-right: auto;
   padding-right: 15px;
@@ -165,6 +164,26 @@ img {
   min-width: 200px;
   border-radius: 4px;
   border: 1px solid transparent;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 700px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-bg {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .filter-button {
