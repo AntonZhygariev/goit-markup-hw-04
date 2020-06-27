@@ -98,6 +98,20 @@ img {
   color: var(--accent-color);
 }
 
+.address-mail-icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.address-phone-icon {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
