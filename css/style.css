@@ -375,7 +375,21 @@ img {
   width: 270px;
 }
 
-.features .item::before {
+.features-top {
+  display: block;
+  height: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: var(--second-bg-color);
+  text-align: center;
+}
+
+.features-top .icon {
+  width: 70px;
+  height: 70px;
+}
+
+/* .features .item::before {
   display: block;
   content: "";
   height: 120px;
@@ -383,8 +397,7 @@ img {
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../images/antenna.svg);
-}
+} */
 
 .team .item {
   width: 270px;
