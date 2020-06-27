@@ -76,6 +76,7 @@ img {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 .current {
@@ -243,6 +244,7 @@ img {
 .filter-button:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .current-button {
@@ -370,6 +372,7 @@ img {
 .customer-icon:hover,
 .customer-icon:focus {
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .section.bacground {
@@ -436,6 +439,7 @@ img {
 .icon-social:focus {
   fill: var(--white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .team > .item {
@@ -579,4 +583,9 @@ img {
 .develop-container {
   display: block;
   text-align: center;
+}
+
+.button .icon {
+  margin-left: 10px;
+  fill: currentColor;
 }
