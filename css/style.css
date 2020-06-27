@@ -178,6 +178,12 @@ img {
   min-width: 200px;
   border-radius: 4px;
   border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
 }
 
 .hero {
@@ -396,6 +402,7 @@ img {
   padding-bottom: 25px;
   background-color: var(--second-bg-color);
   text-align: center;
+  border-radius: 4px;
 }
 
 .features-top .icon {
@@ -413,10 +420,30 @@ img {
   background-position: center;
 } */
 
-.team .item {
+.icon-social {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  fill: var(--primary-text-color);
+}
+
+.icon-social:hover,
+.social-footer .icon-social:hover,
+.social-footer .icon-social:focus,
+.icon-social:focus {
+  fill: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.team > .item {
   width: 270px;
   background: var(--white-color);
-  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .skills .item {
@@ -519,8 +546,10 @@ img {
   width: 210px;
 }
 
-.social-footer {
+.social-footer .icon-social {
   margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
 }
 
 .social {
