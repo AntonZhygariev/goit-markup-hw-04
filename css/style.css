@@ -176,6 +176,10 @@ img {
 }
 
 .hero-bg {
+  min-width: 1600px;
+  min-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.8),
       rgba(47, 48, 58, 0.8)
@@ -369,6 +373,17 @@ img {
 
 .features .item {
   width: 270px;
+}
+
+.features .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: var(--second-bg-color);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/antenna.svg);
 }
 
 .team .item {
