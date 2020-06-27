@@ -371,10 +371,21 @@ img {
 }
 .customer-icon:hover,
 .customer-icon:focus {
-  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
   cursor: pointer;
 }
 
+.customer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  fill: #afb1b8;
+  border-radius: 4px;
+}
 .section.bacground {
   background-color: var(--second-bg-color);
 }
